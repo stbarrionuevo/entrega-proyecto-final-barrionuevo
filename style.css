@@ -507,29 +507,7 @@ ul li a{
     color: rgb(227, 143, 33);
 }
 
-@media (max-width : 1000px) {
 
-        
-    
-        .contenedor-cards{
-
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 2em;
-            justify-items: center;
-            
-        }
-        
-
-
-        .wsp-logo{
-            width: 7%;
-        }
-     
-
-        
-
-    }
 
 
 /**********************************************************************
@@ -647,4 +625,66 @@ ul li a{
 
   .boton-volver a:hover{
     color:rgb(227, 143, 33)
+}
+
+/*MEDIA Q*/
+
+
+@media(max-width:1000px){
+
+        
+    .contenedor-cards{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        justify-items: center;
+        
+    }
+    
+
+
+    .wsp-logo{
+        width: 7%;
+    }
+ 
+
+    .iconos-medios-pago{
+        width: 20%;
+    }
+
+    .iconos-medios-pago:nth-child(2){
+        width: 30%;
+    }
+
+}
+
+
+@media(max-width:800px){
+
+    .iconos-medios-pago{
+        width: 20%;
+    }
+
+    .iconos-medios-pago:nth-child(2){
+        width: 22%;
+    }
+
+    .text-footer{
+        margin: 1em;
+    }
+}
+
+
+
+@media(max-width:500px){
+
+    .iconos-medios-pago{
+        width: 50%;
+    }
+
+
+    .text-footer {
+        font-size: .4em;
+    }
 }
